@@ -100,6 +100,15 @@ export default function Home() {
                   Cotiza por WhatsApp
                 </a>
                 <a
+                  href="/dashboard"
+                  className="inline-flex w-full items-center justify-center gap-2 rounded-full border-2 border-white/30 px-8 py-4 text-lg font-semibold text-white transition hover:bg-white/10 sm:w-auto"
+                >
+                  Ir al Dashboard
+                  <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                  </svg>
+                </a>
+                <a
                   href="#como-funciona"
                   className="inline-flex w-full items-center justify-center gap-2 rounded-full border-2 border-white/30 px-8 py-4 text-lg font-semibold text-white transition hover:bg-white/10 sm:w-auto"
                 >
